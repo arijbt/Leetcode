@@ -10,6 +10,8 @@ class Solution:
             return self.findPeakElement(nums[int(n/2):]) + int(n/2)
         else:
             return int(n/2)-1
+   
+
 
 
 
